@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>The Memory Game</title>	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+
+		integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="game.css">
+
+	<script type="text/javascript" src="game.js"></script>
+
+</head>
+
+<body>
+
+	<main class="d-flex justify-content-center">
+
+		<section id="one" class="text-center divcolor">
+
+			<h1>Generate The Number</h1>
+
+			<article id="num"></article><br>
+
+			<button class="btn btncolor" onclick="generate()">Generate</button><br>
+
+			<h3 id="ref" class="mt-2"></h3>
+
+		</section>
+
+		<section id="two" class="text-center divcolor">
+
+			<h1>Guess The Number</h1>
+
+			<form name="form" method="post">
+
+				<article class="form-group d-flex justify-content-center">
+
+					<input type="number" class="form-control" name="valchk" placeholder="Enter a number"><br><br>
+
+				</article>
+
+				<input type="submit" class="btn btncolor mr-2" value="Guess" onclick="check()">
+
+				<input type="submit" class="btn btncolor" value="Replay Game" onclick="makeChange()"><br><br>
+
+				<div class="container">
+
+					<article id="res" class="alert"></article>
+
+				</div>
+
+			</form>
+
+		</section>
+
+	</main>
+
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
