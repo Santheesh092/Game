@@ -1,0 +1,75 @@
+body{
+
+	background-color: #1D1726;	color: #FFFFFF;
+
+	font-family: 'Inter', sans-serif;
+
+}
+
+.form-control{
+
+	width: 20rem;
+
+}
+
+#two{
+
+	display: none;
+
+}
+
+.btncolor{
+
+	background-color: #B820FF;
+
+	color: white;
+
+}
+
+.btncolor:hover{
+
+	color: #1D1726;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+.divcolor{
+
+	background-color: #4E3E65;
+
+	min-height: 50vh;
+
+	margin-top: 20vh;
+
+	min-width: 40%;
+
+	padding-top: 5%;
+
+	border-radius: 12px;
+
+}
+
+.alert{
+
+	background-color: #B820FF;
+
+	display: none;
+
+	width: 20rem;
+
+	margin: 0 auto;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
+
+h1{
+
+	letter-spacing: -4%;
+
+	font-weight: 400;
+
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+
+}
